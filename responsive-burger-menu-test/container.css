@@ -1,0 +1,188 @@
+.container {
+    width: 95%;
+    margin: auto;
+  }
+
+  /* Responsive Button */
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+
+/* SHOWCASE */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #475569;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  background:#ffffff;
+  color: #000000;
+}
+
+.showcase {
+  width: 100%;
+  height: 400px;
+  background: url("./img/showcase.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+.showcase h2 {
+  font-size: 25px;
+  margin: 15px;
+  
+}
+
+.showcase p {
+  margin: 15px 50px;
+  font-size: 12px;
+}
+
+.showcase .btn {
+  margin-top: 20px;
+}
+
+/* News Cards */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 70px 0;
+}
+
+.news-cards img {
+  width: 100%;
+  height: 180px;
+  object-fit:cover;
+}
+
+.news-cards h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.news-cards a {
+  padding: 10px 0;
+  color: #5b0af0;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* CARDS BANNER */
+
+.cards-banner .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+
+.cards-banner p {
+  margin: 10px 0 20px 0;
+}
+
+/* CARDS BANNER*/
+.cards-banner {
+  width: 100%;
+  height: 350px;
+  background: url("./img/showcase2.jpg") no-repeat center center/cover;
+}
+
+.cards-banner .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Contact - Elements and text-areas */
+
+/*text-areas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*submit-btn */
+input[type=submit] {
+  background-color: #5b0af0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:block;
+  margin:auto;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #280072;
+  transition: 0.5s;
+}
+/*contact-from */
+.contact-form {
+  border-radius: 5px;
+  padding: 20px;
+  width: 80%;
+  display:block;
+  margin:auto;
+}
+
+.contact-form h2 {
+  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* You can also find us here */
+.social {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.social p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 15px;
+  color: #475569;
+}
+
+.links a :hover {
+  color: #4b07c9;
+  transition: 0.5s;
+}
+
+.links a i {
+  font-size: 25px;
+}
